@@ -1,0 +1,201 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FOR ALL */
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(35, 32, 49);
+}
+
+.section-heading{
+    text-align: center;
+    padding-bottom: 6rem;
+}
+
+/* HEADER SECTION */
+
+header{
+    border: 5px solid rgb(35, 32, 49);
+}
+
+.logo{    
+    width: 10%;
+    margin: 2rem auto;
+}
+.logo img{
+    width: 100%;
+}
+
+.header-items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 2rem 4rem;
+}
+.header-item{
+    display: inline;
+    margin: 1%;
+    padding: 0.5% 1%;    
+}
+
+.signin{
+    background-color: rgb(35, 32, 49);
+    border-radius: 5px;
+}
+.signin a{
+    color: white;    
+}
+
+/* NAVBAR SECTION */
+
+#navbar{
+    border: 5px solid rgb(35, 32, 49);
+}
+.navbar-nav{
+    margin: 0 auto;
+}
+.nav-item{
+    padding: 1.5rem 5rem;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+.search{
+    position: absolute;
+    right: 1%;
+    text-align: left;
+    padding:0 1%;
+    margin: auto 2rem;
+    border-top: 10px; border-left: 10px; border-right: 10px;
+    background: transparent;
+}
+
+/* TOP SELECT SECTION */
+
+#top-select{    
+    border: 5px solid rgb(35, 32, 49);
+}
+.top-select-img{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.carousel-caption{
+    font-size: 2rem;
+}
+
+/* WOMEN AND MEN SECTION */
+
+#women-section{
+    background-color: lightskyblue;
+    padding: 8rem 0;
+    border: 5px solid rgb(35, 32, 49);
+}
+#men-section{
+    background-color: coral;
+    padding: 8rem 0;
+    border: 5px solid rgb(35, 32, 49);
+}
+
+.card-collection{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.card{
+    background: transparent;
+    width: 18rem;
+    padding: 0.5rem;
+    margin: 1rem 1rem;   
+    border: none;
+    text-align: left;    
+}
+
+.card-img{
+    width: 100%;
+    height: 21rem;
+    border: 0.25rem solid rgb(35, 32, 49);
+    border-radius: 0;
+    padding: 2%;
+    cursor: pointer;
+}
+.card-img:hover{
+    border-left-style: dashed;
+    border-bottom-style: dashed;
+}
+
+.card-title{
+    padding: 1rem;
+    line-height: 2rem;
+}
+
+.add-to-cart{
+    background: transparent;
+    border: 1px solid rgb(35, 32, 49);
+    padding: 2% 30%;
+}
+
+.add-to-cart:hover{
+    background-color: rgb(35, 32, 49);
+    color: bisque;
+}
+
+/* SOCAIL SECTION */
+
+#social{
+    border: 5px solid rgb(35, 32, 49);
+    text-align: center;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon{
+    width: 2.5rem;
+    margin: 2.5rem;
+}
+
+.feedback{
+    padding: 2rem 0;
+}
+
+footer{
+    border: 5px solid rgb(35, 32, 49);
+    text-align: center;
+    padding: 3rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:786px){
+    .header-items{
+        justify-content: center;
+    }
+    .logo{
+        width: 30%;
+    margin: 2rem auto;
+    }
+    .nav-item{
+        padding: 1rem;
+    }
+    .top-select-img{
+        width: 100%;
+    }
+    .carousel-caption{
+        visibility: hidden;
+    }
+}
