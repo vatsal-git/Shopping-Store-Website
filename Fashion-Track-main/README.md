@@ -1,2 +1,2 @@
-# Fashion-Track
+# Fashion-Trac
 This is a team project.
