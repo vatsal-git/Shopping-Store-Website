@@ -1,0 +1,54 @@
+#login-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: coral;
+}
+
+.login-form-container{  
+    background-color: lightskyblue;
+    border: 5px solid rgb(35, 32, 49);
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;  
+}
+
+.login-logo{
+    width: 10rem;    
+    margin: auto auto 2rem auto;
+}
+.login-logo img{
+    width: 100%;
+}
+
+.form-control{
+    border: 5px solid rgb(35, 32, 49);
+    background: coral;
+}
+
+.login-register a{
+    text-decoration: underline;
+}
+
+.login-form-submit{
+    background-color: rgb(35, 32, 49);
+    color: lightskyblue;
+    border: 5px solid rgb(35, 32, 49);
+    margin: 2rem auto;
+}
+.login-form-submit a{
+    color: lightskyblue;
+}
+.login-form-submit:hover{
+    transform: scale(1.05);
+    color: lightskyblue;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:786px){
+
+}

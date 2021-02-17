@@ -1,0 +1,25 @@
+@import "index-style.css";
+@import "login-style.css";
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FOR ALL */
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #232031;
+}
+
+.section-heading {
+  text-align: center;
+  padding-bottom: 6rem;
+}
