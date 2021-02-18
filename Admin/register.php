@@ -28,12 +28,13 @@
                 <img src="../img/trac-logo.svg" alt="logo">
             </div>
             <h2>Register</h2>
-            <form>
+            <form method="post" action="register.php">
+  	<?php include('account error.php'); ?>
                 <div class="mb-3">
-                    <input type="text" name="username" class="form-control" id="username" placeholder="Username">
+                    <input type="text" name="username" class="form-control" id="username" placeholder="Username" value="<?php echo $username; ?>">
                 </div>
                 <div class="mb-3">
-                    <input type="email" name="email" class="form-control" id="username" placeholder="email">
+                    <input type="email" name="email" class="form-control" id="username" placeholder="email" value="<?php echo $email; ?>">
                 </div>
                 <div class="mb-3">
                     <input type="password" name="password_1" class="form-control" id="password" placeholder="Password">
