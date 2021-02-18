@@ -30,8 +30,8 @@
                 <img src="../img/trac-logo.svg" alt="logo">
             </div>
             <h2>Log in</h2>
-            <form>
-                <?php include('account error.php'); ?>
+            <form method="post" action="login.php">
+  	<?php include('account error.php'); ?>
                 
                 <div class="mb-3">
                     <input type="text" name="username" class="form-control" placeholder="Username">
