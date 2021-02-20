@@ -1,5 +1,7 @@
-# Fashion-Track
+# Fashion-Trac
 
-This is a fashion shopping website built using CSS3 HTML5 PHP including framworks like Bootstrap.
+This is a fashion shopping website demo.
+Language - PHP, CSS3
+Frameworks - Bootstrap5
 
 Author: Vatsal Patel and Raj Khant
