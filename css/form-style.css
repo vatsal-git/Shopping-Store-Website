@@ -1,0 +1,38 @@
+#user-section{
+    border: 5px solid rgb(35, 32, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.user-form{
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;  
+}
+
+.form-logo{
+    width: 10rem;    
+    margin: auto auto 2rem auto;
+}
+.form-logo img{
+    width: 100%;
+}
+
+.form-control{
+    border: 5px solid rgb(35, 32, 49);
+    background: transparent;
+}
+
+.form-submit{
+    background-color: rgb(35, 32, 49);
+    color: bisque;
+    margin: 2rem auto;
+}
+.form-submit:hover{
+    color: bisque;
+    transform: scale(1.05);
+}

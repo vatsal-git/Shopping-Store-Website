@@ -1,15 +1,15 @@
 
 /* HEADER SECTION */
 
-header{
+#header{
     border: 5px solid rgb(35, 32, 49);
 }
 
-.logo{    
+.brand-logo{
     width: 10%;
     margin: 2rem auto;
 }
-.logo img{
+.brand-logo img{
     width: 100%;
 }
 

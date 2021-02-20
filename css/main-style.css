@@ -1,5 +1,6 @@
 @import "index-style.css";
-@import "login-style.css";
+@import "form-style.css";
+@import "cart-style.css";
 
 * {
   font-family: 'Josefin Sans', sans-serif;
@@ -8,7 +9,6 @@
   box-sizing: border-box;
 }
 
-/* FOR ALL */
 body {
   scroll-behavior: smooth;
   overflow-x: hidden;

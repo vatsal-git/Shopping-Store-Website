@@ -7,7 +7,7 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'login info');
+$db = mysqli_connect('localhost', 'root', '', 'fashion-trac');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
@@ -78,7 +78,7 @@ if (isset($_POST['login_user'])) {
         if (mysqli_num_rows($results) == 1) {
           $_SESSION['username'] = $username;
           $_SESSION['success'] = "You are now logged in";
-          header('location: ../index.html');
+          header('location: index.php');
         }else {
             array_push($errors, "Wrong username/password combination");
         }

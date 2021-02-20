@@ -1,4 +1,4 @@
-<?php include('contact server.php') ?>
+<?php include('../admin/server/contact_server.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,8 +9,8 @@
   	<h2>contact us</h2>
   </div>
 	
-  <form method="post" action="contact us.php">
-  	<?php include('contact error.php'); ?>
+  <form method="post" action="contact.php">
+  	<?php include('../admin/error/contact_error.php'); ?>
   	<div class="input-group">
   	  <label>Username</label>
   	  <input type="text" name="username" value="<?php echo $username; ?>">

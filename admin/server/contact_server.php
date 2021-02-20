@@ -8,7 +8,7 @@ $errors = array();
 
 // database connection code
 // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
-$con = mysqli_connect('localhost', 'root', '','contact');
+$con = mysqli_connect('localhost', 'root', '','fashion-trac');
 
 
 if(isset($_POST['reg_user']))
@@ -30,14 +30,16 @@ $message = mysqli_real_escape_string($con, $_POST['message']);
   if (count($errors) == 0) {
 
 // database insert SQL code
-$sql = "INSERT INTO `contact us` ( `username`, `email`, `message`) VALUES ( '$username', '$email', '$message')";
+$sql = "INSERT INTO `contact` ( `username`, `email`, `message`) VALUES ( '$username', '$email', '$message')";
 
 // insert in database 
 $rs = mysqli_query($con, $sql);
 
-//$_SESSION['username'] = $username;
- // 	$_SESSION['success'] = "Your message is inserted";
-  	header('location: contact index.php');
-
-  }
+$_SESSION['username'] = $username;
+$_SESSION['success'] = "Your message is inserted";
+  	header('location: index.php');
+  
+  }else {
+           array_push($errors, "There was an error. Try again");
+        }
 ?>
