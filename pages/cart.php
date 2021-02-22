@@ -55,7 +55,7 @@
                 <div class="mb-2">
                     <input type="text" name="cvv" class="form-control" placeholder="CVV">
                 </div>
-                <button type="submit" class="btn btn-lg form-submit" name="login_user">Submit</button><br><br>
+                <button type="submit" class="btn btn-lg form-submit" name="checkout_user">Submit</button><br><br>
             </div>
         </div>    
         </form>

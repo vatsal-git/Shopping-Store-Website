@@ -21,7 +21,7 @@
 			<div class="mb-2">
 				<input type="text" name="message" class="form-control" placeholder="Message" value="<?php echo $message; ?>">
 			</div><br>
-			<button type="submit" class="btn btn-lg form-submit" name="login_user">Submit</button><br><br>
+			<button type="submit" class="btn btn-lg form-submit" name="reg_user">Submit</button><br><br>
 		</form>
 	</div>
 </div>

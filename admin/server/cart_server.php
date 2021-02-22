@@ -44,7 +44,7 @@ if (isset($_POST['checkout_user'])) {
   	mysqli_query($db, $query);
   	$_SESSION['username'] = $username;
   	$_SESSION['success'] = "You are now logged in";
-  	header('location: purchased.php');
+  	header('location: cart.php');
   }else {
     array_push ($errors, "There was an error in transaction. Try again");
   }
