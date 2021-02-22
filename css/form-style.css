@@ -42,12 +42,6 @@
 
 /* CART SECTION */
 
-.cart{
-  display: flex;
-  text-align: left;
-  justify-content: center;
-  align-items: center;
-}
 .cart-child{  
   margin-right: 2rem;
 }

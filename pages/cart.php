@@ -11,7 +11,7 @@
         <form method="post" action="cart.php">
 
 <?php include('../admin/error/error.php'); ?>
-        <div class="cart">
+        <div class="cart d-flex justify-content-center">
             <div class="cart-child">
                 <h2>Billing</h2><br>
 

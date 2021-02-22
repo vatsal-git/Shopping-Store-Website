@@ -1,5 +1,4 @@
-
-    
+   
     <footer>
         &copy; All rights reserved.<br /> Developed and Designed by <a
             href="https://www.instagram.com/vatsall.patell/">Vatsal
