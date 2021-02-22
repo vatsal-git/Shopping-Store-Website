@@ -1,39 +1,65 @@
-<?php include('../admin/server/cart_server.php') ?>
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
+<?php include('../admin/server/cart_server.php'); ?>
+<?php include('../admin/partials/header.php'); ?>
 
-<h2>Cart</h2>
+<div id="user-section">
 
-   
-    <form method="post" action="cart.php">
-  	<?php include('../admin/error/account_error.php'); ?>
-      
-        
-            <h3>Billing Address</h3>
-            
-            <input type="text" name="username" class="form-control" id="username" placeholder="Username" value="<?php echo $username; ?>">
-            <input type="text" id="email" name="email" placeholder="email" value="<?php echo $email; ?>">
-            <input type="text" id="adr" name="address" placeholder="Adderss" value="<?php echo $address; ?>">
-            <input type="text" id="city" name="city" placeholder="City" value="<?php echo $city; ?>">
-            <input type="text" id="state" name="state" placeholder="State" value="<?php echo $state; ?>">
-            <input type="text" id="zip" name="zip" placeholder="Zip Code" value="<?php echo $zip; ?>">
-             
+    <div class="user-form">
+        <div class="form-logo">
+            <a href="index.php"><img src="../img/trac-logo.svg" alt="logo"></a>
+        </div><br><br>
 
-         
-            <h3>Payment</h3>
- 
-            <input type="text" id="cname" name="cardname" placeholder="Card Name">
-            <input type="text" id="ccnum" name="cardnumber" placeholder="Card Number" value="<?php echo $cardnumber; ?>">
-            <input type="text" id="expmonth" name="expmonth" placeholder="Expire Month">
-            <input type="text" id="expyear" name="expyear" placeholder="Expire Year">
-            <input type="text" id="cvv" name="cvv" placeholder="CVV">
-             
-        
-        <input type="submit" value="Checkout" name="checkout_user" class="btn">
-   
+        <form method="post" action="cart.php">
 
-</body>
-</html>
+<?php include('../admin/error/error.php'); ?>
+        <div class="cart">
+            <div class="cart-child">
+                <h2>Billing</h2><br>
+
+                <div class="mb-2">
+                    <input type="text" name="username" class="form-control" placeholder="Username"
+                        value="<?php echo $username; ?>">
+                </div>
+                <div class="mb-2">
+                    <input type="text" name="email" class="form-control" placeholder="email" value="<?php echo $email; ?>">
+                </div>
+                <div class="mb-2">
+                    <input type="text" name="address" class="form-control" placeholder="Address"
+                        value="<?php echo $address; ?>">
+                </div>
+                <div class="mb-2">
+                    <input type="text" name="city" class="form-control" placeholder="City" value="<?php echo $city; ?>">
+                </div>
+                <div class="mb-2">
+                    <input type="text" name="state" class="form-control" placeholder="State" value="<?php echo $state; ?>">
+                </div>
+                <div class="mb-2">
+                    <input type="text" name="zip" class="form-control" placeholder="ZIP Code" value="<?php echo $zip; ?>">
+                </div><br>
+            </div>
+            <div class="cart-child">
+                <h2>Payment</h2><br>
+
+                <div class="mb-2">
+                    <input type="text" name="cardname" class="form-control" placeholder="Card Name">
+                </div>
+                <div class="mb-2">
+                    <input type="text" name="cardnumber" class="form-control" placeholder="Card Number"
+                        value="<?php echo $cardnumber; ?>">
+                </div>
+                <div class="mb-2">
+                    <input type="text" name="expmonth" class="form-control" placeholder="Expire Month">
+                </div>
+                <div class="mb-2">
+                    <input type="text" name="expyear" class="form-control" placeholder="Expire Year">
+                </div>
+                <div class="mb-2">
+                    <input type="text" name="cvv" class="form-control" placeholder="CVV">
+                </div>
+                <button type="submit" class="btn btn-lg form-submit" name="login_user">Submit</button><br><br>
+            </div>
+        </div>    
+        </form>
+    </div>
+</div>
+
+<?php include('../admin/partials/footer.php'); ?>

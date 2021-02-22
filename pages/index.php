@@ -18,7 +18,7 @@
         </div>
 
         <div class="brand-logo">
-            <a href="index.html"><img src="../img/trac-logo.svg" alt="logo"></a>
+            <a href="index.php"><img src="../img/trac-logo.svg" alt="logo"></a>
         </div>
 
 </div>

@@ -3,7 +3,7 @@
 @import "cart-style.css";
 
 * {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -21,9 +21,19 @@ a {
 
 .section-heading {
   text-align: center;
-  padding-bottom: 6rem;
 }
 
-text-white{
+text-white {
   color: #fff;
+}
+
+@keyframes page-in{
+  0{
+    opacity: 0;
+    transform: translatey(100vh);
+  }
+  100%{
+    opacity: 1;
+    transform: translatey(0);
+  }
 }

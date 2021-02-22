@@ -1,31 +1,28 @@
-<?php include('../admin/server/contact_server.php') ?>
-<!DOCTYPE html>
-<html>
-<head>
-  <title>contact us</title>
-</head>
-<body>
-  <div class="header">
-  	<h2>contact us</h2>
-  </div>
-	
-  <form method="post" action="contact.php">
-  	<?php include('../admin/error/contact_error.php'); ?>
-  	<div class="input-group">
-  	  <label>Username</label>
-  	  <input type="text" name="username" value="<?php echo $username; ?>">
-  	</div>
-  	<div class="input-group">
-  	  <label>Email</label>
-  	  <input type="email" name="email" value="<?php echo $email; ?>">
-  	</div>
-  	<div class="input-group">
-  	  <label>Message</label>
-  	  <input type="text" name="message" value="<?php echo $message; ?>">
-  	</div>
-  	<div class="input-group">
-  	  <button type="submit" class="btn" name="reg_user">submit</button>
-  	</div>
-  </form>
-</body>
-</html>
+<?php include('../admin/server/contact_server.php'); ?>
+<?php include('../admin/partials/header.php'); ?>
+
+<div id="user-section">
+
+	<div class="user-form">
+		<div class="form-logo">
+			<a href="index.php"><img src="../img/trac-logo.svg" alt="logo"></a>
+		</div><br><br>
+		<h2>Log in</h2><br>
+		<form method="post" action="contact.php">
+
+ <?php include('../admin/error/error.php'); ?>
+
+			<div class="mb-2">
+				<input type="text" name="username" class="form-control" placeholder="Username" value="<?php echo $username; ?>">
+			</div>
+			<div class="mb-2">
+				<input type="email" name="email" class="form-control" placeholder="email" value="<?php echo $email; ?>">
+			</div>
+			<div class="mb-2">
+				<input type="text" name="message" class="form-control" placeholder="Message" value="<?php echo $message; ?>">
+			</div><br>
+			<button type="submit" class="btn btn-lg form-submit" name="login_user">Submit</button><br><br>
+		</form>
+	</div>
+</div>
+<?php include('../admin/partials/footer.php'); ?>
