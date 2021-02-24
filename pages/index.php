@@ -143,8 +143,9 @@
                         cart</button></a>
             </div>
         </div>
+     <a href="women_section.php"> <button type="submit" class="btn btn-lg form-submit " name="See more" style="float:right">See more</button><br></a>
     </div>
-
+    
 </div>
 
 <!-- MEN SECTION -->
@@ -200,6 +201,7 @@
                 <a href="cart.php"><button class="add-to-cart" value="Coral-Coat (M)">Add to cart</button></a>
             </div>
         </div>
+    <a href="men_section.php"> <button type="submit" class="btn btn-lg form-submit " name="See more" style="float:right">See more</button><br></a>
     </div>
 </div>
 
