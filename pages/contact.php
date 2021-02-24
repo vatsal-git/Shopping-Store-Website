@@ -7,7 +7,7 @@
 		<div class="form-logo">
 			<a href="index.php"><img src="../img/trac-logo.svg" alt="logo"></a>
 		</div><br><br>
-		<h2>Log in</h2><br>
+		<h2>Contact Us</h2><br>
 		<form method="post" action="contact.php">
 
  <?php include('../admin/error/error.php'); ?>

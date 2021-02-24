@@ -99,7 +99,9 @@
     <div class="row card-collection">
 
         <div class="card col-lg-3 col-sm-6">
-            <img src="../img/women/women1.jpg" class="card-img" alt="women1">
+            <div class="img-wrapper">
+                <img src="../img/women/women1.jpg" class="card-img" alt="women1">
+            </div>
             <div class="card-body">
                 <h5 class="card-title">$499 <br>
                     <strong>30% OFF</strong>
@@ -108,7 +110,9 @@
             </div>
         </div>
         <div class="card col-lg-3 col-sm-6">
-            <img src="../img/women/women2.jpg" class="card-img" alt="women2">
+            <div class="img-wrapper">
+                <img src="../img/women/women2.jpg" class="card-img" alt="women2">
+            </div>
             <div class="card-body">
                 <h5 class="card-title">$699<br>
                     <strong>69% OFF</strong>
@@ -117,7 +121,9 @@
             </div>
         </div>
         <div class="card col-lg-3 col-sm-6">
-            <img src="../img/women/women3.jpg" class="card-img" alt="women3">
+            <div class="img-wrapper">
+                <img src="../img/women/women3.jpg" class="card-img" alt="women3">
+            </div>
             <div class="card-body">
                 <h5 class="card-title">$749<br>
                     <strong>40% OFF</strong>
@@ -126,7 +132,9 @@
             </div>
         </div>
         <div class="card col-lg-3 col-sm-6">
-            <img src="../img/women/women4.jpg" class="card-img" alt="women4">
+            <div class="img-wrapper">
+                <img src="../img/women/women4.jpg" class="card-img" alt="women4">
+            </div>
             <div class="card-body">
                 <h5 class="card-title">$899<br>
                     <strong>10% OFF</strong>
@@ -147,7 +155,9 @@
     <div class="row card-collection">
 
         <div class="card col-lg-3 col-md-6">
-            <img src="../img/men/men1.jpg" class="card-img" alt="men1">
+            <div class="img-wrapper">
+                <img src="../img/men/men1.jpg" class="card-img" alt="men1">
+            </div>
             <div class="card-body">
                 <h5 class="card-title">$499 <br>
                     <strong>30% OFF</strong>
@@ -157,7 +167,9 @@
             </div>
         </div>
         <div class="card col-lg-3 col-md-6">
-            <img src="../img/men/men2.jpg" class="card-img" alt="men2">
+            <div class="img-wrapper">
+                <img src="../img/men/men2.jpg" class="card-img" alt="men2">
+            </div>
             <div class="card-body">
                 <h5 class="card-title">$699<br>
                     <strong>69% OFF</strong>
@@ -166,7 +178,9 @@
             </div>
         </div>
         <div class="card col-lg-3 col-md-6">
-            <img src="../img/men/men3.jpg" class="card-img" alt="men3">
+            <div class="img-wrapper">
+                <img src="../img/men/men3.jpg" class="card-img" alt="men3">
+            </div>
             <div class="card-body">
                 <h5 class="card-title">$749<br>
                     <strong>40% OFF</strong>
@@ -176,7 +190,9 @@
             </div>
         </div>
         <div class="card col-lg-3 col-md-6">
-            <img src="../img/men/men4.jpg" class="card-img" alt="men4">
+            <div class="img-wrapper">
+                <img src="../img/men/men4.jpg" class="card-img" alt="men4">
+            </div>
             <div class="card-body">
                 <h5 class="card-title">$899<br>
                     <strong>10% OFF</strong>
